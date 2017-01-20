@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru-ru">
   <head>
-    <title>thers.io</title>
+    <title>Neechousey</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400" rel="stylesheet">
+
     <style>
-      divchik {
-        display: block;
-        width: 200px;
-        margin: 10% auto;
-        font-family: Helvetica-Neue, Helvetica, Arial, sans-serif, serif;
-        font-size: 2em;
-        color: #999;
+      body {
+        font-size: 18px;
+        font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.1;
+        margin: 50px 200px;
+      }
+
+      header {
+        margin: 0;
+        padding: 0;
+      }
+
+      dim {
+        display: inline;
+        color: #cfcfcf;
+      }
+
+      h1 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 16.5px;
+        font-weight: 400;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      ul li {
+        margin: 0 0 12.5px 0;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 500;
+        text-shadow: 1px 0 1px #fff, -1px 0 1px #fff, 0 1px 1px #fff, 0 -1px 1px #fff;
+        background-image: linear-gradient(to bottom,rgba(0,0,0,.5) 50%,rgb(255, 255, 255) 50%);
+        background-size: 100% 2px;
+        background-position: 0 21px;
+        background-repeat: no-repeat;
+        transition: background-color .1s ease;
+      }
+      a:hover {
+        background-image: linear-gradient(to bottom,rgba(0,0,0,1) 50%,rgb(255, 255, 255) 50%);
+      }
+      a > desc {
+        display: inline;
+        color: #000;
+        font-weight: 300;
       }
     </style>
   </head>
   <body>
-    <divchik>
-      Hичего нет, не было, будет.
-    </divchik>
+    <header>
+      Thers. <dim>RiderSx. Alexander Kukhta.</dim>
+    </header>
+
+    <h1>Projects</h1>
+    <ul>
+      <li><a href="http://bakaru.thers.io">
+        Bakaru<desc> - An anime player.</desc>
+      </a></li>
+      <li><a href="http://github.com/RiderSx/fr-docs">
+        Fr-docs<desc> - Unofficial FiveReborn documentation.</desc>
+      </a></li>
+    </ul>
   </body>
 </html>
 
