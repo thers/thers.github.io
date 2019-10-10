@@ -1,0 +1,17 @@
+{
+  "comment": {
+    "1": {
+      "type": "comment",
+      "id": "1",
+      "attributes": {
+        "body": "Comment body"
+      },
+      "relationships": {
+        "author": {
+          "data": { "type": "author", "id": "1" }
+        }
+      }
+    }
+  },
+  "author": {...}
+}
