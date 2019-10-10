@@ -108,7 +108,7 @@ number {
 .branding {
     position: fixed;
     bottom: 10px;
-    left: 10px;
+    right: 20px;
     z-index: 100000;
     height: 35px;
     width: 154px;
@@ -402,3 +402,26 @@ number {
 @media print {
     .backgrounds {
         background-color: #f7f3de; } }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+    position: fixed;
+    display: block;
+    right: 20px;
+    top: 10px;
+    bottom: auto;
+    z-index: 31;
+    font-family: monospace, Menlo;
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+    background-color: #041b26;
+    padding: 5px 5px; }
+
+.reveal .slide-number a {
+    color: currentColor; }
+
+.reveal .slide-number-delimiter {
+    margin: 0 3px; }
